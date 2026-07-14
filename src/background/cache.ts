@@ -36,7 +36,7 @@ export async function writeCache(analysis: PageAnalysis): Promise<void> {
       try {
         await chrome.storage.local.set({ [key]: entry });
       } catch {
-        console.error('[cache] write failed after prune, skipping cache for', url);
+        console.error('[cache] write failed after prune, skipping cache for', analysis.url);
       }
     } else {
       throw err;
