@@ -38,14 +38,14 @@
     "@types/react-dom": "^18.3.1",
     "@types/chrome": "^0.0.289",
     "typescript": "^5.6.3",
-    "vitest": "^2.1.4",
+    "vitest": "^4.1.10",
     "vitest-chrome": "^0.1.0",
-    "@vitest/coverage-v8": "^2.1.4",
+    "@vitest/coverage-v8": "^4.1.10",
     "jsdom": "^25.0.1",
     "@testing-library/react": "^16.0.1",
     "@testing-library/jest-dom": "^6.6.2",
-    "wxt": "^0.19.8",
-    "@vitejs/plugin-react": "^4.3.4"
+    "wxt": "^0.20.27",
+    "@vitejs/plugin-react": "^6.0.3"
   },
   "engines": {
     "node": ">=18.0.0"
