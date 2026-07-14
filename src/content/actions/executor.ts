@@ -2,6 +2,7 @@ import type { Action } from '../../shared/types';
 import type { ActionResult } from './types';
 import { executeCheck } from './check';
 import { executeClick } from './click';
+import { executeEnter } from './enter';
 import { executeFill } from './fill';
 import { executeSelect } from './select';
 import { executeSubmit } from './submit';
@@ -29,6 +30,9 @@ export async function executeActionPlan(
           break;
         case 'submit':
           result = await executeSubmit(action.selector);
+          break;
+        case 'enter':
+          result = await executeEnter(action.selector);
           break;
       }
       results.push(result);
