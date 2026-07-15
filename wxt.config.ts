@@ -2,7 +2,7 @@ import { defineConfig } from 'wxt';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  extensionApi: 'chrome',
+  browser: 'chrome',
   vite: () => ({ plugins: [react()] }),
   manifest: {
     name: 'WebMCP Tool Inference',
