@@ -33,7 +33,7 @@
     "react-dom": "^19.2.7"
   },
   "devDependencies": {
-    "@playwright/test": "^1.48.0",
+    "@playwright/test": "^1.62.0",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "@types/chrome": "^0.2.2",
@@ -43,7 +43,7 @@
     "@vitest/coverage-v8": "^4.1.10",
     "jsdom": "^29.1.1",
     "@testing-library/react": "^16.0.1",
-    "@testing-library/jest-dom": "^6.6.2",
+    "@testing-library/jest-dom": "^7.0.0",
     "wxt": "^0.20.27",
     "@vitejs/plugin-react": "^6.0.3"
   },
