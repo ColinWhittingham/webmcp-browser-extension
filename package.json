@@ -44,8 +44,8 @@
     "jsdom": "^30.0.0",
     "@testing-library/react": "^16.0.1",
     "@testing-library/jest-dom": "^7.0.0",
-    "wxt": "^0.21.1",
-    "@vitejs/plugin-react": "^6.0.4"
+    "wxt": "^0.21.2",
+    "@vitejs/plugin-react": "^6.0.5"
   },
   "engines": {
     "node": ">=22.13.0"
